@@ -1,74 +1,57 @@
 #!/usr/bin/env python3
-import urllib.request
-import re
 from pathlib import Path
+import urllib.request
 
 UPSTREAM = "https://raw.githubusercontent.com/ImMALWARE/dns.malw.link/refs/heads/master/hosts"
 MARKER = "# Блокировка"
-
-# Домены, которые нужно полностью убрать (и их поддомены)
-EXCLUDE_FILE = Path("exclude.txt")
-
-# Линии формата: "IP domain" (IPv4/IPv6) + опциональный комментарий
-LINE_RE = re.compile(r"^\s*([0-9a-fA-F:.]+)\s+([a-zA-Z0-9.-]+)\s*(?:#.*)?$")
+EXCLUDE_FILE = "exclude.txt"
+OUT_FILE = "hosts"
 
 
-def load_exclude() -> set[str]:
-    if not EXCLUDE_FILE.exists():
+def load_exclude(path: str) -> set[str]:
+    p = Path(path)
+    if not p.exists():
         return set()
-    out: set[str] = set()
-    for line in EXCLUDE_FILE.read_text(encoding="utf-8", errors="ignore").splitlines():
-        line = line.strip().lower()
-        if not line or line.startswith("#"):
-            continue
-        out.add(line)
-    return out
+    return {
+        line.strip().lower()
+        for line in p.read_text(encoding="utf-8", errors="ignore").splitlines()
+        if line.strip() and not line.strip().startswith("#")
+    }
 
 
-def is_excluded(domain: str, exclude: set[str]) -> bool:
+def excluded(domain: str, ex: set[str]) -> bool:
     d = domain.lower()
-    return (d in exclude) or any(d.endswith("." + x) for x in exclude)
+    return d in ex or any(d.endswith("." + x) for x in ex)
 
 
 def main():
-    exclude = load_exclude()
+    ex = load_exclude(EXCLUDE_FILE)
 
-    with urllib.request.urlopen(UPSTREAM, timeout=30) as r:
-        text = r.read().decode("utf-8", errors="ignore")
+    text = urllib.request.urlopen(UPSTREAM, timeout=30).read().decode("utf-8", errors="ignore")
 
-    out_lines: list[str] = []
-    marker_found = False
+    out = []
+    for raw in text.splitlines(True):  # keep \n
+        line = raw.replace("\ufeff", "")  # на всякий случай убираем BOM
 
-    for raw_line in text.splitlines(True):  # True = keep \n
-        # Обрезаем всё после маркера блокировки
-        if raw_line.strip() == MARKER:
-            marker_found = True
+        if line.strip() == MARKER:
             break
 
-        low = raw_line.strip().lower()
+        low = line.strip().lower()
 
-        # Убираем комментарии/заголовки про TikTok (например "# TikTok")
-        if raw_line.lstrip().startswith("#") and "tiktok" in low:
+        # выкидываем заголовки/комментарии про TikTok
+        if line.lstrip().startswith("#") and "tiktok" in low:
             continue
 
-        m = LINE_RE.match(raw_line)
-        if not m:
-            # Оставляем прочие комментарии/пустые строки/непонятные строки до маркера
-            out_lines.append(raw_line)
-            continue
+        # если строка вида "IP domain ..." — проверим домен на exclude
+        parts = low.split()
+        if len(parts) >= 2 and not parts[0].startswith("#"):
+            domain = parts[1]
+            if excluded(domain, ex):
+                continue
 
-        ip, domain = m.group(1), m.group(2).lower()
+        out.append(line)
 
-        # Убираем домены из exclude.txt (и их поддомены)
-        if is_excluded(domain, exclude):
-            continue
-
-        out_lines.append(f"{ip} {domain}\n")
-
-    if not marker_found:
-        raise SystemExit("ERROR: marker '# Блокировка' not found")
-
-    Path("hosts").write_text("".join(out_lines), encoding="utf-8", newline="")
+    Path(OUT_FILE).write_text("".join(out), encoding="utf-8", newline="")
 
 
 if __name__ == "__main__":
