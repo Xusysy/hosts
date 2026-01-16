@@ -2,3 +2,5 @@ tiktok.com
 www.tiktok.com
 github.com
 api.github.com
+proxy.individual.githubcopilot.com
+api.individual.githubcopilot.com
