@@ -1,2 +1,4 @@
 tiktok.com
 www.tiktok.com
+github.com
+api.github.com
