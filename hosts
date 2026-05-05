@@ -1,5 +1,5 @@
 ### dns.malw.link: hosts file
-# Последнее обновление: 30 апреля 2026
+# Последнее обновление: 05 мая 2026
 
 52.223.13.41 tracker.openbittorrent.com
 185.31.40.18 test.dns.malw.link
@@ -34,10 +34,11 @@
 77.239.114.0 sora.com
 77.239.114.0 videos.openai.com
 77.239.114.0 ios.chat.openai.com
+77.239.114.0 cdn.platform.openai.com
+77.239.114.0 developers.openai.com
 
 # Microsoft
 77.239.114.0 copilot.microsoft.com
-62.133.62.97 sydney.bing.com
 77.239.114.0 edgeservices.bing.com
 77.239.114.0 rewards.bing.com
 77.239.114.0 xsts.auth.xboxlive.com
@@ -163,6 +164,8 @@
 77.239.114.0 claude.ai
 77.239.114.0 console.anthropic.com
 77.239.114.0 api.anthropic.com
+77.239.114.0 platform.claude.com
+77.239.114.0 a.claude.ai
 
 # Trae.ai
 77.239.114.0 trae-api-sg.mchost.guru
@@ -215,7 +218,7 @@
 
 
 # Archive.org
-77.239.114.0 web.archive.org
+103.27.157.38 web.archive.org
 
 # NVIDIA
 77.239.114.0 developer.nvidia.com
@@ -246,6 +249,7 @@
 77.239.114.0 swap-api.pump.fun
 
 # Truth Social
+103.27.157.38 truthsocial.com
 103.27.157.38 static-assets-1.truthsocial.com
 
 # Elgato
