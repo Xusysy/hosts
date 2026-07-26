@@ -1,5 +1,5 @@
 ### dns.malw.link: hosts file
-# Последнее обновление: 30 мая 2026
+# Последнее обновление: 25 июля 2026
 
 52.223.13.41 tracker.openbittorrent.com
 185.31.40.18 test.dns.malw.link
@@ -21,7 +21,7 @@
 45.155.204.190 chatgpt.com
 45.155.204.190 ab.chatgpt.com
 45.155.204.190 auth.openai.com
-45.155.204.190 auth0.openai.com
+37.230.192.51 auth0.openai.com
 45.155.204.190 platform.openai.com
 45.155.204.190 cdn.oaistatic.com
 45.155.204.190 files.oaiusercontent.com
@@ -31,10 +31,10 @@
 45.155.204.190 api.openai.com
 45.155.204.190 operator.chatgpt.com
 45.155.204.190 sora.chatgpt.com
-45.155.204.190 videos.openai.com
+37.230.192.51 videos.openai.com
 45.155.204.190 ios.chat.openai.com
-45.155.204.190 cdn.platform.openai.com
-45.155.204.190 developers.openai.com
+37.230.192.51 cdn.platform.openai.com
+103.27.157.38 developers.openai.com
 45.155.204.190 sdmntprukwest.oaiusercontent.com
 45.155.204.190 sdmntpritalynorth.oaiusercontent.com
 45.155.204.190 sdmntprpolandcentral.oaiusercontent.com
@@ -42,14 +42,15 @@
 
 # Microsoft
 45.155.204.190 copilot.microsoft.com
-45.155.204.190 edgeservices.bing.com
+37.230.192.51 sydney.bing.com
+37.230.192.51 edgeservices.bing.com
 45.155.204.190 rewards.bing.com
 45.155.204.190 xsts.auth.xboxlive.com
 45.155.204.190 xgpuwebf2p.gssv-play-prod.xboxlive.com
 45.155.204.190 xgpuweb.gssv-play-prod.xboxlive.com
 
 # Spotify
-45.155.204.190 api.spotify.com
+37.230.192.51 api.spotify.com
 45.155.204.190 login5.spotify.com
 45.155.204.190 encore.scdn.co
 45.155.204.190 gew1-spclient.spotify.com
@@ -58,7 +59,7 @@
 45.155.204.190 aet.spotify.com
 45.155.204.190 www.spotify.com
 45.155.204.190 accounts.spotify.com
-45.155.204.190 open.spotify.com
+37.230.192.51 open.spotify.com
 45.155.204.190 accounts.scdn.co
 45.155.204.190 gew1-dealer.spotify.com
 45.155.204.190 www-growth.scdn.co
@@ -69,8 +70,8 @@
 45.155.204.190 datalore.jetbrains.com
 45.155.204.190 plugins.jetbrains.com
 45.155.204.190 download.jetbrains.com
-45.155.204.190 api.jetbrains.ai
-45.155.204.190 account.jetbrains.com
+37.230.192.51 api.jetbrains.ai
+37.230.192.51 account.jetbrains.com
 
 # ElevenLabs
 45.155.204.190 elevenlabs.io
@@ -94,7 +95,7 @@
 103.27.157.38 resources.tidal.com
 103.27.157.38 images.tidal.com
 45.155.204.190 geolocation.onetrust.com
-45.155.204.190 api.squareup.com
+37.230.192.51 api.squareup.com
 45.155.204.190 api-global.squareup.com
 
 # Supercell
@@ -110,7 +111,7 @@
 # DeepL
 45.155.204.190 deepl.com
 45.155.204.190 www.deepl.com
-45.155.204.190 www2.deepl.com
+37.230.192.51 www2.deepl.com
 45.155.204.190 login-wall.deepl.com
 45.155.204.190 w.deepl.com
 45.155.204.190 s.deepl.com
@@ -121,16 +122,16 @@
 45.155.204.190 experimentation-grpc.deepl.com
 45.155.204.190 ita-free.app.deepl.com
 45.155.204.190 shield.deepl.com
-45.155.204.190 ott.deepl.com
+37.230.192.51 ott.deepl.com
 45.155.204.190 api-free.deepl.com
 45.155.204.190 backend.deepl.com
-45.155.204.190 clearance.deepl.com
+37.230.192.51 clearance.deepl.com
 45.155.204.190 errortracking.deepl.com
 45.155.204.190 auth.deepl.com
 45.155.204.190 oneshot-free.www.deepl.com
-45.155.204.190 checkout.www.deepl.com
+37.230.192.51 checkout.www.deepl.com
 45.155.204.190 gtm.deepl.com
-45.155.204.190 voice-proxy.www.deepl.com
+37.230.192.51 voice-proxy.www.deepl.com
 
 # Deezer
 45.155.204.190 deezer.com
@@ -163,10 +164,10 @@
 62.133.62.97 stitch.withgoogle.com
 
 # Claude
-45.155.204.190 claude.ai
+37.230.192.51 claude.ai
 45.155.204.190 console.anthropic.com
 45.155.204.190 api.anthropic.com
-45.155.204.190 platform.claude.com
+37.230.192.51 platform.claude.com
 45.155.204.190 a.claude.ai
 
 # Trae.ai
@@ -176,7 +177,7 @@
 45.155.204.190 api16-normal-alisg.mchost.guru
 
 # Linear.app
-45.155.204.190 linear.app
+185.246.223.127 linear.app
 45.155.204.190 client-api.linear.app
 45.155.204.190 static.linear.app
 45.155.204.190 constellation.linear.app
@@ -185,8 +186,8 @@
 45.155.204.190 s.linear.app
 
 # Windsurf
-45.155.204.190 windsurf.com
-45.155.204.190 codeium.com
+185.246.223.127 windsurf.com
+185.246.223.127 codeium.com
 45.155.204.190 server.codeium.com
 45.155.204.190 web-backend.codeium.com
 45.155.204.190 unleash.codeium.com
@@ -200,7 +201,7 @@
 45.155.204.190 gql.twitch.tv
 
 # Manus
-45.155.204.190 manus.im
+37.230.192.51 manus.im
 45.155.204.190 api.manus.im
 
 # Notion
@@ -209,7 +210,7 @@
 45.155.204.190 app.notion.com
 
 # Canva
-45.155.204.190 www.canva.com
+103.27.157.38 www.canva.com
 45.155.204.190 content-management-files.canva.com
 45.155.204.190 static.canva.com
 
@@ -221,7 +222,7 @@
 
 
 # Archive.org
-45.155.204.190 web.archive.org
+37.230.192.51 web.archive.org
 
 # NVIDIA
 45.155.204.190 developer.nvidia.com
@@ -230,10 +231,10 @@
 45.155.204.190 builds.parsec.app
 
 # Tria.ge
-45.155.204.190 tria.ge
+37.230.192.51 tria.ge
 
 # Qwant
-45.155.204.190 www.qwant.com
+37.230.192.51 www.qwant.com
 
 # guidedhacking.com
 45.155.204.190 guidedhacking.com
@@ -242,11 +243,11 @@
 45.155.204.190 framer.com
 
 # Autodesk
-45.155.204.190 accounts.autodesk.com
+37.230.192.51 accounts.autodesk.com
 45.155.204.190 www.autodesk.com
 
 # Pump.fun
-45.155.204.190 pump.fun
+37.230.192.51 pump.fun
 45.155.204.190 frontend-api-v3.pump.fun
 45.155.204.190 images.pump.fun
 45.155.204.190 swap-api.pump.fun
