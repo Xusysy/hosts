@@ -1,5 +1,5 @@
 ### dns.malw.link: hosts file
-# Последнее обновление: 25 июля 2026
+# Последнее обновление: 29 августа 2026
 
 52.223.13.41 tracker.openbittorrent.com
 185.31.40.18 test.dns.malw.link
@@ -7,7 +7,7 @@
 103.27.157.38 controlplane.tailscale.com
 62.133.62.97 game.clashroyaleapp.com
 193.23.209.189 gamea.clashofclans.com
-185.246.223.127 game.brawlstarsgame.com
+80.253.249.40 game.brawlstarsgame.com
 108.61.167.26 game.squadbustersgame.com
 62.133.62.97 game.mocogame.com
 172.64.33.155 d.rutor.info
@@ -18,129 +18,129 @@
 157.240.245.174 help.instagram.com
 
 # OpenAI
-45.155.204.190 chatgpt.com
-45.155.204.190 ab.chatgpt.com
-45.155.204.190 auth.openai.com
-37.230.192.51 auth0.openai.com
-45.155.204.190 platform.openai.com
-45.155.204.190 cdn.oaistatic.com
-45.155.204.190 files.oaiusercontent.com
-45.155.204.190 tcr9i.chat.openai.com
-45.155.204.190 webrtc.chatgpt.com
-45.155.204.190 android.chat.openai.com
-45.155.204.190 api.openai.com
-45.155.204.190 operator.chatgpt.com
-45.155.204.190 sora.chatgpt.com
-37.230.192.51 videos.openai.com
-45.155.204.190 ios.chat.openai.com
-37.230.192.51 cdn.platform.openai.com
-103.27.157.38 developers.openai.com
-45.155.204.190 sdmntprukwest.oaiusercontent.com
-45.155.204.190 sdmntpritalynorth.oaiusercontent.com
-45.155.204.190 sdmntprpolandcentral.oaiusercontent.com
-45.155.204.190 sdmntprnortheu.oaiusercontent.com
+193.233.112.68 chatgpt.com
+193.233.112.68 ab.chatgpt.com
+193.233.112.68 auth.openai.com
+193.233.112.67 auth0.openai.com
+193.233.112.68 platform.openai.com
+193.233.112.68 cdn.oaistatic.com
+193.233.112.68 files.oaiusercontent.com
+193.233.112.68 tcr9i.chat.openai.com
+193.233.112.68 webrtc.chatgpt.com
+193.233.112.68 android.chat.openai.com
+193.233.112.68 api.openai.com
+193.233.112.67 operator.chatgpt.com
+193.233.112.67 sora.chatgpt.com
+193.233.112.68 videos.openai.com
+193.233.112.68 ios.chat.openai.com
+193.233.112.68 cdn.platform.openai.com
+193.233.112.68 developers.openai.com
+193.233.112.68 sdmntprukwest.oaiusercontent.com
+193.233.112.68 sdmntpritalynorth.oaiusercontent.com
+193.233.112.68 sdmntprpolandcentral.oaiusercontent.com
+193.233.112.68 sdmntprnortheu.oaiusercontent.com
 
 # Microsoft
-45.155.204.190 copilot.microsoft.com
-37.230.192.51 sydney.bing.com
-37.230.192.51 edgeservices.bing.com
-45.155.204.190 rewards.bing.com
-45.155.204.190 xsts.auth.xboxlive.com
-45.155.204.190 xgpuwebf2p.gssv-play-prod.xboxlive.com
-45.155.204.190 xgpuweb.gssv-play-prod.xboxlive.com
+193.233.112.68 copilot.microsoft.com
+193.233.112.67 sydney.bing.com
+193.233.112.67 edgeservices.bing.com
+193.233.112.68 rewards.bing.com
+193.233.112.68 xsts.auth.xboxlive.com
+193.233.112.68 xgpuwebf2p.gssv-play-prod.xboxlive.com
+193.233.112.68 xgpuweb.gssv-play-prod.xboxlive.com
 
 # Spotify
-37.230.192.51 api.spotify.com
-45.155.204.190 login5.spotify.com
-45.155.204.190 encore.scdn.co
-45.155.204.190 gew1-spclient.spotify.com
-45.155.204.190 spclient.wg.spotify.com
-45.155.204.190 api-partner.spotify.com
-45.155.204.190 aet.spotify.com
-45.155.204.190 www.spotify.com
-45.155.204.190 accounts.spotify.com
-37.230.192.51 open.spotify.com
-45.155.204.190 accounts.scdn.co
-45.155.204.190 gew1-dealer.spotify.com
-45.155.204.190 www-growth.scdn.co
+193.233.112.68 api.spotify.com
+193.233.112.68 login5.spotify.com
+193.233.112.68 encore.scdn.co
+193.233.112.68 gew1-spclient.spotify.com
+193.233.112.68 spclient.wg.spotify.com
+193.233.112.68 api-partner.spotify.com
+193.233.112.68 aet.spotify.com
+193.233.112.68 www.spotify.com
+193.233.112.68 accounts.spotify.com
+193.233.112.68 open.spotify.com
+193.233.112.68 accounts.scdn.co
+193.233.112.68 gew1-dealer.spotify.com
+193.233.112.68 www-growth.scdn.co
 
 # GitHub Copilot
 
 # JetBrains
-45.155.204.190 datalore.jetbrains.com
-45.155.204.190 plugins.jetbrains.com
-45.155.204.190 download.jetbrains.com
-37.230.192.51 api.jetbrains.ai
-37.230.192.51 account.jetbrains.com
+193.233.112.68 datalore.jetbrains.com
+193.233.112.68 plugins.jetbrains.com
+193.233.112.68 download.jetbrains.com
+193.233.112.67 api.jetbrains.ai
+193.233.112.68 account.jetbrains.com
 
 # ElevenLabs
-45.155.204.190 elevenlabs.io
-45.155.204.190 api.us.elevenlabs.io
-45.155.204.190 elevenreader.io
-45.155.204.190 api.elevenlabs.io
-45.155.204.190 help.elevenlabs.io
+193.233.112.68 elevenlabs.io
+193.233.112.68 api.us.elevenlabs.io
+193.233.112.68 elevenreader.io
+193.233.112.68 api.elevenlabs.io
+193.233.112.68 help.elevenlabs.io
 
 # Grok
-45.155.204.190 grok.com
-45.155.204.190 accounts.x.ai
-45.155.204.190 assets.grok.com
+193.233.112.68 grok.com
+193.233.112.68 accounts.x.ai
+193.233.112.68 assets.grok.com
 
 # Tidal
-103.27.157.38 api.tidal.com
-103.27.157.38 listen.tidal.com
-103.27.157.38 login.tidal.com
-103.27.157.38 auth.tidal.com
-103.27.157.38 link.tidal.com
-103.27.157.38 dd.tidal.com
-103.27.157.38 resources.tidal.com
-103.27.157.38 images.tidal.com
-45.155.204.190 geolocation.onetrust.com
-37.230.192.51 api.squareup.com
-45.155.204.190 api-global.squareup.com
+62.133.62.97 api.tidal.com
+62.133.62.97 listen.tidal.com
+62.133.62.97 login.tidal.com
+62.133.62.97 auth.tidal.com
+62.133.62.97 link.tidal.com
+62.133.62.97 dd.tidal.com
+62.133.62.97 resources.tidal.com
+62.133.62.97 images.tidal.com
+193.233.112.68 geolocation.onetrust.com
+193.233.112.68 api.squareup.com
+193.233.112.68 api-global.squareup.com
 
 # Supercell
-103.27.157.38 cdn.id.supercell.com
-103.27.157.38 security.id.supercell.com
-103.27.157.38 accounts.supercell.com
-103.27.157.38 game-assets.clashroyaleapp.com
-103.27.157.38 game-assets.clashofclans.com
-103.27.157.38 clashofclans.inbox.supercell.com
-103.27.157.38 game-assets.brawlstarsgame.com
-103.27.157.38 store.supercell.com
+193.233.112.68 cdn.id.supercell.com
+193.233.112.68 security.id.supercell.com
+193.233.112.68 accounts.supercell.com
+193.233.112.68 game-assets.clashroyaleapp.com
+193.233.112.68 game-assets.clashofclans.com
+193.233.112.68 clashofclans.inbox.supercell.com
+193.233.112.68 game-assets.brawlstarsgame.com
+193.233.112.68 store.supercell.com
 
 # DeepL
-45.155.204.190 deepl.com
-45.155.204.190 www.deepl.com
-37.230.192.51 www2.deepl.com
-45.155.204.190 login-wall.deepl.com
-45.155.204.190 w.deepl.com
-45.155.204.190 s.deepl.com
-45.155.204.190 dict.deepl.com
-45.155.204.190 ita-free.www.deepl.com
-45.155.204.190 write-free.www.deepl.com
-45.155.204.190 experimentation.deepl.com
-45.155.204.190 experimentation-grpc.deepl.com
-45.155.204.190 ita-free.app.deepl.com
-45.155.204.190 shield.deepl.com
-37.230.192.51 ott.deepl.com
-45.155.204.190 api-free.deepl.com
-45.155.204.190 backend.deepl.com
-37.230.192.51 clearance.deepl.com
-45.155.204.190 errortracking.deepl.com
-45.155.204.190 auth.deepl.com
-45.155.204.190 oneshot-free.www.deepl.com
-37.230.192.51 checkout.www.deepl.com
-45.155.204.190 gtm.deepl.com
-37.230.192.51 voice-proxy.www.deepl.com
+193.233.112.68 deepl.com
+193.233.112.68 www.deepl.com
+193.233.112.68 www2.deepl.com
+193.233.112.68 login-wall.deepl.com
+193.233.112.68 w.deepl.com
+193.233.112.68 s.deepl.com
+193.233.112.68 dict.deepl.com
+193.233.112.68 ita-free.www.deepl.com
+193.233.112.68 write-free.www.deepl.com
+193.233.112.68 experimentation.deepl.com
+193.233.112.68 experimentation-grpc.deepl.com
+193.233.112.68 ita-free.app.deepl.com
+193.233.112.68 shield.deepl.com
+193.233.112.68 ott.deepl.com
+193.233.112.68 api-free.deepl.com
+193.233.112.68 backend.deepl.com
+193.233.112.68 clearance.deepl.com
+193.233.112.68 errortracking.deepl.com
+193.233.112.68 auth.deepl.com
+193.233.112.68 oneshot-free.www.deepl.com
+193.233.112.68 checkout.www.deepl.com
+193.233.112.68 gtm.deepl.com
+193.233.112.68 voice-proxy.www.deepl.com
 
 # Deezer
-45.155.204.190 deezer.com
-45.155.204.190 www.deezer.com
-45.155.204.190 payment.deezer.com
+193.233.112.68 deezer.com
+193.233.112.68 www.deezer.com
+193.233.112.68 payment.deezer.com
 
 # Weather.com
-45.155.204.190 weather.com
-45.155.204.190 upsx.weather.com
+193.233.112.68 weather.com
+193.233.112.68 upsx.weather.com
 
 # Google
 62.133.62.97 api.fitbit.com
@@ -164,113 +164,113 @@
 62.133.62.97 stitch.withgoogle.com
 
 # Claude
-37.230.192.51 claude.ai
-45.155.204.190 console.anthropic.com
-45.155.204.190 api.anthropic.com
-37.230.192.51 platform.claude.com
-45.155.204.190 a.claude.ai
+193.233.112.68 claude.ai
+193.233.112.68 console.anthropic.com
+193.233.112.68 api.anthropic.com
+193.233.112.68 platform.claude.com
+193.233.112.68 a.claude.ai
 
 # Trae.ai
-45.155.204.190 trae-api-sg.mchost.guru
-45.155.204.190 api.trae.ai
-45.155.204.190 api-sg-central.trae.ai
-45.155.204.190 api16-normal-alisg.mchost.guru
+193.233.112.68 trae-api-sg.mchost.guru
+193.233.112.68 api.trae.ai
+193.233.112.68 api-sg-central.trae.ai
+193.233.112.68 api16-normal-alisg.mchost.guru
 
 # Linear.app
-185.246.223.127 linear.app
-45.155.204.190 client-api.linear.app
-45.155.204.190 static.linear.app
-45.155.204.190 constellation.linear.app
-45.155.204.190 uploads.linear.app
-45.155.204.190 public.linear.app
-45.155.204.190 s.linear.app
+193.233.112.68 linear.app
+193.233.112.68 client-api.linear.app
+193.233.112.68 static.linear.app
+193.233.112.68 constellation.linear.app
+193.233.112.68 uploads.linear.app
+193.233.112.68 public.linear.app
+193.233.112.68 s.linear.app
 
 # Windsurf
-185.246.223.127 windsurf.com
-185.246.223.127 codeium.com
-45.155.204.190 server.codeium.com
-45.155.204.190 web-backend.codeium.com
-45.155.204.190 unleash.codeium.com
-45.155.204.190 inference.codeium.com
-45.155.204.190 windsurf-stable.codeium.com
-45.155.204.190 windsurf-telemetry.codeium.com
-45.155.204.190 marketplace.windsurf.com
+193.233.112.68 windsurf.com
+193.233.112.68 codeium.com
+193.233.112.68 server.codeium.com
+193.233.112.68 web-backend.codeium.com
+193.233.112.68 unleash.codeium.com
+193.233.112.68 inference.codeium.com
+193.233.112.68 windsurf-stable.codeium.com
+193.233.112.68 windsurf-telemetry.codeium.com
+193.233.112.68 marketplace.windsurf.com
 
 # Twitch
-45.155.204.190 usher.ttvnw.net
-45.155.204.190 gql.twitch.tv
+193.233.112.68 usher.ttvnw.net
+193.233.112.68 gql.twitch.tv
 
 # Manus
-37.230.192.51 manus.im
-45.155.204.190 api.manus.im
+193.233.112.68 manus.im
+193.233.112.68 api.manus.im
 
 # Notion
-45.155.204.190 www.notion.so
-45.155.204.190 calendar.notion.so
-45.155.204.190 app.notion.com
+193.233.112.68 www.notion.so
+193.233.112.68 calendar.notion.so
+193.233.112.68 app.notion.com
 
 # Canva
-103.27.157.38 www.canva.com
-45.155.204.190 content-management-files.canva.com
-45.155.204.190 static.canva.com
+103.137.248.179 www.canva.com
+193.233.112.68 content-management-files.canva.com
+193.233.112.68 static.canva.com
 
 # Intel
-45.155.204.190 www.intel.com
+193.233.112.68 www.intel.com
 
 # Dell
-45.155.204.190 www.dell.com
+193.233.112.68 www.dell.com
 
 
 # Archive.org
-37.230.192.51 web.archive.org
+193.233.112.68 web.archive.org
 
 # NVIDIA
-45.155.204.190 developer.nvidia.com
+193.233.112.68 developer.nvidia.com
 
 # Parsec
-45.155.204.190 builds.parsec.app
+193.233.112.68 builds.parsec.app
 
 # Tria.ge
-37.230.192.51 tria.ge
+193.233.112.68 tria.ge
 
 # Qwant
-37.230.192.51 www.qwant.com
+193.233.112.68 www.qwant.com
 
 # guidedhacking.com
-45.155.204.190 guidedhacking.com
+193.233.112.68 guidedhacking.com
 
 # Framer
-45.155.204.190 framer.com
+193.233.112.68 framer.com
 
 # Autodesk
-37.230.192.51 accounts.autodesk.com
-45.155.204.190 www.autodesk.com
+193.233.112.68 accounts.autodesk.com
+193.233.112.68 www.autodesk.com
 
 # Pump.fun
-37.230.192.51 pump.fun
-45.155.204.190 frontend-api-v3.pump.fun
-45.155.204.190 images.pump.fun
-45.155.204.190 swap-api.pump.fun
+193.233.112.68 pump.fun
+193.233.112.68 frontend-api-v3.pump.fun
+193.233.112.67 images.pump.fun
+193.233.112.68 swap-api.pump.fun
 
 # Truth Social
-45.155.204.190 truthsocial.com
-45.155.204.190 static-assets-1.truthsocial.com
+193.233.112.68 truthsocial.com
+193.233.112.68 static-assets-1.truthsocial.com
 
 # Elgato
-45.155.204.190 www.elgato.com
+193.233.112.68 www.elgato.com
 
 # Imgur
-45.155.204.190 api.imgur.com
+193.233.112.68 api.imgur.com
 
 # Dyson
-45.155.204.190 dyson.com
-45.155.204.190 www.dyson.com
-103.27.157.38 www.dyson.fr
+193.233.112.68 dyson.com
+193.233.112.68 www.dyson.com
+62.133.62.97 www.dyson.fr
 
 # Broadcom
-45.155.204.190 profile.broadcom.com
+193.233.112.68 profile.broadcom.com
 
 # Patreon
-185.246.223.127 patreon.com
-185.246.223.127 www.patreon.com
+62.133.62.97 patreon.com
+62.133.62.97 www.patreon.com
 
